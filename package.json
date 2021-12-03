@@ -1,0 +1,33 @@
+{
+  "name": "adviency-day1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --mode=development",
+    "serve": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeJOcampo/adviency-day1.git"
+  },
+  "keywords": [
+    "adviency"
+  ],
+  "author": "Jorge Ocampo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeJOcampo/adviency-day1/issues"
+  },
+  "homepage": "https://github.com/JorgeJOcampo/adviency-day1#readme",
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
